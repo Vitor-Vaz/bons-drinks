@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "Calligraffitti";
+    src: url("../../fonts/Calligraffitti-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Coldiac";
+    src: url("../../fonts/Coldiac.ttf");
+}
+
+
+
+
+.main{
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-areas: "title" "body";
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px auto;
+    color: white;
+
+}
+.title{
+    grid-area: title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    color: goldenrod;
+    font-size: 40px;
+    font-family: "Calligraffitti", sans-serif;
+}
+
+.body{
+    grid-area: body;
+    width: 1100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Coldiac", sans-serif;
+    font-weight: 600;
+    justify-self: center;
+
+}
+
+.picture{
+  width: 30rem;
+  height: 20rem;
+  border-radius: 5px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 50%;
+    max-width: 80vw;
+    max-height: 50rem;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact input{
+    width: 500px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    border: none;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    font-family: "Coldiac", sans-serif;
+}
+
+.textarea {
+    height: 100px !important;
+    background-color: rgb(65, 64, 64);
+    color: white;
+}
+
+button{
+    width: 400px;
+    height: 30px;
+    background-color: goldenrod;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: "Coldiac", sans-serif;
+    font-weight: 600;
+}

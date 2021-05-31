@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Calligraffitti";
+    src: url("../../fonts/Calligraffitti-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Coldiac";
+    src: url("../../fonts/Coldiac.ttf");
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  @keyframes slide-right {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+    }
+  }
+  
+
+
+
+
+
+
+.box{
+    border-left: 2px solid white;
+    color: #ffffff;
+    margin: 5%;
+    animation: slide-right 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+ 
+.box h1{
+    padding: 2%;
+    color: #f7c443;
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Calligraffitti', sans-serif;
+}
+
+.box p {
+    padding: 2%;
+    font-family: 'Coldiac', sans-serif;
+}

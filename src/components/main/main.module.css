@@ -1,0 +1,13 @@
+
+.main{
+    grid-area: content;
+    display: flex;
+    align-items: center;
+    max-width: 180rem;
+}
+
+.main img{
+    width: 40rem;
+    height: 30rem;
+    
+}

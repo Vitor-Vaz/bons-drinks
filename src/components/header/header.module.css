@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Coldiac";
+    src: url("../../fonts/Coldiac.ttf");
+}
+
+@font-face {
+    font-family: "Caligraffitti";
+    src: url("../../fonts/Calligraffitti-Regular.ttf");
+}
+
+
+.header{
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    box-shadow: -3px 10px 40px -15px rgba(253,249,249,0.67);
+    -webkit-box-shadow: -3px 10px 40px -15px rgba(253,249,249,0.67);
+    -moz-box-shadow: -3px 10px 40px -15px rgba(253,249,249,0.67);
+
+}
+
+.selections{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.selections link{
+    text-decoration: none;
+}
+
+.selections li{
+    font-size: 25px;
+    color: whitesmoke;
+    border: none;
+    background-color: rgb(12, 12, 12);
+    font-family: 'Caligraffitti', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.selections li:hover{
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    transition: .5s;
+}

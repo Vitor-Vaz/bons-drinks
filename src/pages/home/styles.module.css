@@ -3,6 +3,7 @@
     grid-area: content;
     display: flex;
     align-items: center;
+    width: 90%;
     max-width: 180rem;
 }
 

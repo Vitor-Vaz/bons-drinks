@@ -9,8 +9,6 @@
 }
 
 
-
-
 .main{
     margin: 0 auto;
     width: 80%;
@@ -29,7 +27,7 @@
     font-weight: 300;
     color: goldenrod;
     font-size: 40px;
-    font-family: "Calligraffitti", sans-serif;
+    font-family: 'Mate SC', serif;
 }
 
 .body{

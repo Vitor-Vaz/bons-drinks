@@ -7,7 +7,7 @@ export default function Footer(){
     return(
         
         <footer className={styles.footer}>
-             <p>Alguns direitos reservados (nem todos) </p>
+             <p>Alguns direitos reservados ( nem todos ) </p>
         </footer>
        
     )

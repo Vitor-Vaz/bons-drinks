@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import styles from './drinks.module.css';
-import OneDrink from '../OneDrink/OneDrink';
-import Modal from '../modal/modal';
+import styles from './styles.module.css';
+import OneDrink from '../../components/OneDrink/OneDrink';
+import Modal from '../../components/modal/modal'
 import useFetchDrinks from '../../hooks/useFetchDrinks';
 
 export default function Drinks() {
@@ -10,7 +10,7 @@ export default function Drinks() {
     const [visible, setVisible] = useState(false);
     const [dados, setDados] = useState({});
 
-    const Alldrinks = useFetchDrinks('https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail');
+    const Alldrinks = useFetchDrinks(process.env.REACT_APP_API_URL);
 
     function showDrink() {
         if (visible == true) {
@@ -26,6 +26,8 @@ export default function Drinks() {
     function attDados(valores) {
         setDados({ ...valores });
     }
+
+    
 
     return (
         <div className={styles.main} >

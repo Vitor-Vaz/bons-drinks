@@ -1,20 +1,18 @@
-import { useState, useEffect } from 'react';
+import api from '../services/api';
+import { useState, useEffect, useCallback } from 'react';
 
 export default function useFetchDrinks(url) {
 
-
     const [drinks, setDrinks] = useState([]);
-
     useEffect(() => {
 
-        const banana = async () => {
-            const response = await ( await fetch(url)).json();
-            setDrinks(response.drinks)
+        const pickItem = async () => {
+            const { data } = await api.get(url)
+            setDrinks(data.drinks);
         }
-        banana();
+        pickItem();
 
     }, [url]);
-
 
     return drinks;
 }

@@ -29,6 +29,7 @@ body{
 
 .modal_box{
     background-color: rgb(13, 14, 14, 0.8);
+    margin: 5%;
     position: absolute;
     color: white;
     width: 50%;
@@ -43,8 +44,8 @@ body{
 }
 
 .modal_box img{
-    width: 20rem;
-    height: 20rem;
+    width: 15rem;
+    height: 15rem;
     border-radius: 3px;
 }
 
@@ -55,5 +56,26 @@ body{
 }
 
 h4{
+    margin: 2%;
     font-family: 'Karla', sans-serif;
+}
+
+
+.buttonClose{
+    border-radius: 1px;
+    border: 1px white solid;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 5px;
+    top: 5px;
+    background-color: rgb(65, 64, 64);
+    transition: .3s;
+}
+
+.buttonClose:hover{
+    color: black;
+    background-color: white;
 }

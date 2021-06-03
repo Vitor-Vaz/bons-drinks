@@ -12,7 +12,7 @@ export default function Header({ coisas }) {
                 <Link to='/' style={{ textDecoration: 'none' }}>
                     <li>Home</li>
                 </Link>
-                <Link to='/drinks' style={{ textDecoration: 'none' }} >
+                <Link to='/drinks/populares' style={{ textDecoration: 'none' }} >
                     <li>Drinks</li>
                 </Link>
 

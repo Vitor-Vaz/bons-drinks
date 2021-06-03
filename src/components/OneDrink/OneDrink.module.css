@@ -2,8 +2,8 @@
 
 .drink_box{
     border-left: 2px solid white;
-    width: 20rem;
-    height: 25rem;
+    width: 10rem;
+    height: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,8 +23,8 @@
 }
 
 img{
-    width: 20rem;
-    height: 20rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 2px;
 }
 

@@ -1,7 +1,32 @@
 
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav p{
+    color: white;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+    transition: .5s;
+}
+
+
+.p:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+.link{
+   
+}
+
 .main{
+
     margin: 0 auto;
     width: 80vw;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+
 }

@@ -1,14 +1,3 @@
-@font-face {
-    font-family: "Coldiac";
-    src: url("../../fonts/Coldiac.ttf");
-}
-
-@font-face {
-    font-family: "Caligraffitti";
-    src: url("../../fonts/Calligraffitti-Regular.ttf");
-}
-
-
 .header{
     width: 100%;
     background-color: rgb(12, 12, 12);

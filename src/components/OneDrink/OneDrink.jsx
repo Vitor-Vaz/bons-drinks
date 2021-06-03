@@ -11,10 +11,7 @@ export default function OneDrink({ drink, index, switchDrink, attDados }) {
                 className={styles.drink_box}
                 onClick={() => {
                     switchDrink()
-                    attDados({
-                        nome: drink.strDrink,
-                        foto: drink.strDrinkThumb
-                    })
+                    attDados(drink)
                 }}>
 
                 <div ><img src={drink.strDrinkThumb} alt={drink.strDrink} /> </div>

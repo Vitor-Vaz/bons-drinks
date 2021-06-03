@@ -1,0 +1,58 @@
+
+
+
+.drinkSearchMain{
+  
+  
+
+}
+
+.drinkSelectItems{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(65, 64, 64);
+    font-family: 'Mate SC', serif;
+    font-size: 17px;
+    color: white;
+}
+
+.drinkSearchItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.inputSearch{
+    width: 200px;
+    height: 30px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(65, 64, 64);
+    color: white;
+    border: none;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 2px;
+    font-family: 'Mate SC', serif;
+    font-size: 20px;
+}
+
+.inputbutton{
+    border-radius: 1px;
+    height: 35px;
+    width: 70px;
+    background-color: transparent;
+    transition: .3s;
+}
+
+.inputbutton:hover{
+    background-color: white;
+    color: black;
+}
+
+.drinkResults{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

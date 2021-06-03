@@ -18,6 +18,7 @@
 
 .grid_container1:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container2{
@@ -31,6 +32,7 @@
 
 .grid_container2:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container3{
@@ -44,6 +46,7 @@
 
 .grid_container3:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container4{
@@ -57,6 +60,7 @@
 
 .grid_container4:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container5{
@@ -70,6 +74,7 @@
 
 .grid_container5:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container6{
@@ -83,6 +88,7 @@
 
 .grid_container6:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container7{
@@ -96,10 +102,11 @@
 
 .grid_container7:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container8{
-    background-image: url('../../img/Strawberry-Shivers.jpg');
+    background-image: url('../../img/Happy-Skipper.jpg');
     background-size: cover;
     width: 200px;
     height: 200px;
@@ -109,6 +116,7 @@
 
 .grid_container8:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container9{
@@ -122,6 +130,7 @@
 
 .grid_container9:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .grid_container10{
@@ -135,6 +144,7 @@
 
 .grid_container10:hover{
     transform: scale(1.05);
+    filter: brightness(1.30);
 }
 
 .drinksPopGrid p{

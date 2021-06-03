@@ -15,7 +15,7 @@ export default function OneDrink({ drink, index, switchDrink, attDados }) {
                 }}>
 
                 <div ><img src={drink.strDrinkThumb} alt={drink.strDrink} /> </div>
-                <p> {drink.strDrink}</p>
+                <p className={styles.drink_p}> {drink.strDrink}</p>
             </div>
         </>
     )

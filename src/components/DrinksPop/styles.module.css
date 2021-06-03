@@ -1,0 +1,151 @@
+.drinksPopGrid{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    gap: 20px;
+}
+
+.grid_container1{
+    background-image: url('../../img/pina-colada.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container1:hover{
+    transform: scale(1.05);
+}
+
+.grid_container2{
+    background-image: url('../../img/sex-on-beach.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container2:hover{
+    transform: scale(1.05);
+}
+
+.grid_container3{
+    background-image: url('../../img/mojito.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container3:hover{
+    transform: scale(1.05);
+}
+
+.grid_container4{
+    background-image: url('../../img/Happy-Skipper.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container4:hover{
+    transform: scale(1.05);
+}
+
+.grid_container5{
+    background-image: url('../../img/155-Belmont.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container5:hover{
+    transform: scale(1.05);
+}
+
+.grid_container6{
+    background-image: url('../../img/Iced-Coffee-Fillip.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container6:hover{
+    transform: scale(1.05);
+}
+
+.grid_container7{
+    background-image: url('../../img/Strawberry-Shivers.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container7:hover{
+    transform: scale(1.05);
+}
+
+.grid_container8{
+    background-image: url('../../img/Strawberry-Shivers.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container8:hover{
+    transform: scale(1.05);
+}
+
+.grid_container9{
+    background-image: url('../../img/Alice-in-Wonderland.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container9:hover{
+    transform: scale(1.05);
+}
+
+.grid_container10{
+    background-image: url('../../img/Americano.jpg');
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+
+    transition: .5s;
+}
+
+.grid_container10:hover{
+    transform: scale(1.05);
+}
+
+.drinksPopGrid p{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    top: 0;
+    margin: 0 auto;
+    height: 15%;
+    vertical-align: auto;
+    text-align: center;
+    font-weight: 500;
+}
+
+

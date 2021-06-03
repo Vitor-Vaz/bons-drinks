@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
-import DrinksPop from '../../components/DrinksPop/DrinksPop';
+import DrinksPop from '../../components/DrinksPop';
 import DrinksSearch from '../../components/DrinksSearch';
 import { Switch, Route, NavLink } from 'react-router-dom';
 

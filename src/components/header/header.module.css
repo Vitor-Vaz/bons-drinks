@@ -24,13 +24,6 @@
 }
 
 .selections li{
-    font-size: 25px;
-    color: whitesmoke;
-    border: none;
-    background-color: rgb(12, 12, 12);
-    font-family: 'Mate SC', serif;
-    list-style: none;
-    text-decoration: none;
 
 }
 
@@ -43,4 +36,72 @@
 .nameMain{
     color: #f7c443 !important;
     font-size: 35px !important;
+}
+
+.hamburguerDiv{
+    display: none;
+}
+
+:is(.selections, .selections_click){
+   
+}
+
+:is(.selections li, .selections_click){
+    font-size: 25px;
+    border: none;
+    font-family: 'Mate SC', serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 768px){
+
+
+
+    .selections{
+        display: none;
+    }
+
+    .hamburguerDiv{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        color: aliceblue;
+        font-size: 30px;
+    }
+
+    .hamburguer{
+        z-index: 20;
+        width: 30px;
+        height: 30px;
+    }
+
+    .hamburguer::before{
+        content: "";
+    }
+
+    .hamburguer::after{
+        content: "";
+        background: url("../../img/155-Belmont.jpg")
+    }
+
+    .selections_click{
+        z-index: 10;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        position: absolute;
+        background-color: rgba(11, 11, 12, 0.884);
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+        left: 0;
+    }
+}
+
+@media(max-widht: 500px and screen){
+
+
 }

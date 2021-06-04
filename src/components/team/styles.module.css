@@ -19,3 +19,14 @@
     font-family: 'Mate SC', serif;
     font-weight: 400;
 }
+
+@media screen and (max-width: 768px){
+
+    .team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}

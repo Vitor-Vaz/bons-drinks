@@ -108,10 +108,10 @@ export default function DrinksSearch() {
             </div>
 
             <div className={styles.drinkResults}>
-                {drinks.map((drink, index) => {
+                {drinks ? ( drinks.map((drink, index) => {
                     return <OneDrink drink={drink} key={index} index={index} switchDrink={switchDrink} attDados={attDados} />
                 })
-                }
+                ) : <h2> Não foi encontrado nada para "{pesquisa}" </h2>}
             </div>
 
             {showDrink()}

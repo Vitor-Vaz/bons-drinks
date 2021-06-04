@@ -1,12 +1,3 @@
-
-
-
-.drinkSearchMain{
-  
-  
-
-}
-
 .drinkSelectItems{
     height: 30px;
     width: 200px;
@@ -35,7 +26,7 @@
     border-bottom: 1px solid white;
     border-radius: 2px;
     font-family: 'Mate SC', serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .inputbutton{

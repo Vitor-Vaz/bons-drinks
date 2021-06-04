@@ -12,7 +12,7 @@
 }
 
 .selections{
-    width: 40%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,4 +38,9 @@
     font-weight: bold;
     border-bottom: 2px solid white;
     transition: .5s;
+}
+
+.nameMain{
+    color: #f7c443 !important;
+    font-size: 35px !important;
 }

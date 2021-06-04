@@ -9,9 +9,6 @@ export default function Header({ coisas }) {
         <header className={styles.header}>
 
             <nav className={styles.selections}>
-                <Link to='/' style={{ textDecoration: 'none' }}>
-                    <li>Home</li>
-                </Link>
                 <Link to='/drinks/populares' style={{ textDecoration: 'none' }} >
                     <li>Drinks</li>
                 </Link>
@@ -20,8 +17,16 @@ export default function Header({ coisas }) {
                     <li>Contato</li>
                 </Link>
 
+                <Link to='/' style={{ textDecoration: 'none' }}>
+                    <li className={styles.nameMain}>Home</li>
+                </Link>
+
                 <Link to='/about' style={{ textDecoration: 'none' }}>
                     <li>Sobre nós</li>
+                </Link>
+
+                <Link to='/team' style={{ textDecoration: 'none' }}>
+                    <li>Time </li>
                 </Link>
             </nav>
         </header>

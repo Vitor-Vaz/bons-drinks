@@ -1,0 +1,21 @@
+.team{
+    display: grid;
+    grid-template-areas: 
+    "title title" 
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10% 45% 45%;
+    gap: 20px;
+    max-width: 1200px;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+.team h2{
+    color: #f7c443;
+    font-size: 35px;
+    grid-area: title;
+    justify-self: center;
+    font-family: 'Mate SC', serif;
+    font-weight: 400;
+}

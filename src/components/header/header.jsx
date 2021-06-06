@@ -1,21 +1,31 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './header.module.css'
 import { Link } from 'react-router-dom';
 import { FaAlignJustify } from "react-icons/fa";
+import useWindowSize from '../../hooks/useWindowSize'
 
-export default function Header({ coisas }) {
+export default function Header() {
 
 
     const [responsiveMenu, setResponsiveMenu] = useState(true);
 
+    const [height] = useWindowSize();
 
+    useEffect(() => {
+        const verifySize = () => {
+            if (height > 768) {
+                setResponsiveMenu(true)
+            }
+        }
+        verifySize();
+    }, [height])
 
     return (
         <header className={styles.header}>
 
             <div className={styles.hamburguerDiv}>
                 <h2 > Drink's Master</h2>
-                <FaAlignJustify className={styles.hamburguer} onClick={() => setResponsiveMenu(!responsiveMenu)}/>
+                <FaAlignJustify className={styles.hamburguer} onClick={() => setResponsiveMenu(!responsiveMenu)} />
             </div>
 
             <nav className={responsiveMenu ? styles.selections : styles.selections_click}>

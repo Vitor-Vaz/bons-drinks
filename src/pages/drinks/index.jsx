@@ -13,13 +13,13 @@ export default function Drinks() {
                 <NavLink 
                 style={{textDecoration:"none"}}
                 to='/drinks/populares'>
-                   <p className={styles.p}> Drinks Populares   </p> 
+                   <button  className={styles.p}> Drinks Populares  </button> 
                 </NavLink>
 
                 <NavLink 
                 style={{textDecoration:"none"}}
                 to='/drinks/pesquisar'>
-                   <p className={styles.p}> Pesquisar </p>  
+                   <button className={styles.p}> Pesquisar </button>  
                 </NavLink>
             </nav>
 

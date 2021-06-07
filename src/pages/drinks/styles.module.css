@@ -5,17 +5,22 @@
     justify-content: space-around;
 }
 
-.nav p{
+.nav button{
+    background-color: black;
     color: white;
     font-family: 'Mate SC', serif;
     font-size: 25px;
     transition: .5s;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 15px 0;
+
 }
 
 
-.p:hover{
-    text-decoration: underline;
-    font-weight: 600;
+button:hover{
+    color: black;
+    background-color: white;
 }
 
 

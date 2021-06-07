@@ -13,7 +13,9 @@ export default function Modal({ dados, switchDrink }) {
     }
 
     return (
-        <div className={styles.container} >
+        <div className={styles.container} onClick={(e) => {
+            if (e.target.className === styles.container) switchDrink()}} >
+
             <div className={styles.modal_box}>
                 <button className={styles.buttonClose} onClick={() => switchDrink()}><RiCloseFill/></button>
                 <div> <img src={dados.strDrinkThumb} alt={dados.strDrink} /> </div>

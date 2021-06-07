@@ -20,6 +20,8 @@ export default function Header() {
         verifySize();
     }, [height])
 
+    console.log(responsiveMenu);
+
     return (
         <header className={styles.header}>
 
@@ -30,23 +32,23 @@ export default function Header() {
 
             <nav className={responsiveMenu ? styles.selections : styles.selections_click}>
 
-                <Link to='/drinks/populares' style={{ textDecoration: 'none', color: "whitesmoke" }}  >
+                <Link to='/drinks/populares' style={{ textDecoration: 'none', color: "whitesmoke" }} onClick={() => setResponsiveMenu(true)} >
                     <li>Drinks</li>
                 </Link>
 
-                <Link to='/contact' style={{ textDecoration: 'none', color: "whitesmoke" }}  >
+                <Link to='/contact' style={{ textDecoration: 'none', color: "whitesmoke" }} onClick={() => setResponsiveMenu(true)} >
                     <li>Contato</li>
                 </Link>
 
-                <Link to='/' style={{ textDecoration: 'none', color: "whitesmoke" }}  >
+                <Link to='/' style={{ textDecoration: 'none', color: "whitesmoke" }}  onClick={() => setResponsiveMenu(true)} >
                     <li className={styles.nameMain}>Home</li>
                 </Link>
 
-                <Link to='/about' style={{ textDecoration: 'none', color: "whitesmoke" }}  >
+                <Link to='/about' style={{ textDecoration: 'none', color: "whitesmoke" }} onClick={() => setResponsiveMenu(true)} >
                     <li>Sobre nós</li>
                 </Link>
 
-                <Link to='/team' style={{ textDecoration: 'none', color: "whitesmoke" }} >
+                <Link to='/team' style={{ textDecoration: 'none', color: "whitesmoke" }} onClick={() => setResponsiveMenu(true)} >
                     <li>Time </li>
                 </Link>
             </nav>

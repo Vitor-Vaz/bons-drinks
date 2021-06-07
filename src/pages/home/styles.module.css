@@ -12,3 +12,17 @@
     height: 30rem;
     
 }
+
+@media screen and (max-width: 768px ){
+
+    .main{
+        background-image: url('../../img/barman.jpeg');
+        background-size: cover;
+        width: 100%;
+    }
+
+    .main img{
+        display: none;
+    }
+
+}

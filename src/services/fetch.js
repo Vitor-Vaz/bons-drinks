@@ -13,9 +13,15 @@ export async function UseDrinksByCategory(category){
     
     const newCategory = category.replace(" ", "_");
     
+    console.log(newCategory);
+
     const data = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?c=${newCategory}`);
     
+    console.log(data);
+
     const banana = await data.json();
+
+    console.log(banana);
 
     return banana.drinks;
 };

@@ -24,3 +24,19 @@
 .aboutUs p {
     font-family: 'Karla', sans-serif;
 }
+
+@media screen and (max-width: 768px){
+    .aboutUs img{
+        display: none;
+    }
+
+    .aboutUs h3{
+        font-size: 40px;
+    }
+
+    .aboutUs{
+        background-color: rgba(0, 0, 0, 0.74);
+        margin: 0 20px;
+        padding: 0 20px;
+    }
+}

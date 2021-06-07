@@ -32,7 +32,7 @@ export default function Contact() {
                         <input className={styles.textarea} type="textarea" />
                     </div>
 
-                    <button >Enviar</button>
+                    <button className={styles.buttonContact}>Enviar</button>
                 </div>
             </div>
 

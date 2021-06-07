@@ -5,6 +5,7 @@
     font-family: 'Mate SC', serif;
     font-size: 17px;
     color: white;
+    border-radius: 4px;
 }
 
 .drinkSearchItems{
@@ -30,11 +31,12 @@
 }
 
 .inputbutton{
-    border-radius: 1px;
+    border-radius: 4px;
     height: 35px;
     width: 70px;
     background-color: transparent;
     transition: .3s;
+    color: white;
 }
 
 .inputbutton:hover{
@@ -46,4 +48,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px){
+
+    .drinkSearchItems{
+        flex-wrap: wrap;
+    }
 }

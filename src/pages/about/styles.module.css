@@ -2,3 +2,12 @@
 .main{
     display: flex;
 }
+
+
+@media screen and (max-width: 768px){
+    .main{
+        background-image: url('../../img/sobre-nos.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}

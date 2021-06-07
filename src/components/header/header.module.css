@@ -1,3 +1,30 @@
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+@keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+}
+  
+
+
 .header{
     width: 100%;
     background-color: rgb(12, 12, 12);
@@ -67,9 +94,15 @@
         width: 90%;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-between;
         color: aliceblue;
+    }
+
+    .hamburguerDiv h2{
+        font-family: 'Mate SC', serif;
         font-size: 30px;
+        font-weight: 400;
+        color: #f7c443;
     }
 
     .hamburguer{
@@ -78,26 +111,19 @@
         height: 30px;
     }
 
-    .hamburguer::before{
-        content: "";
-    }
-
-    .hamburguer::after{
-        content: "";
-        background: url("../../img/155-Belmont.jpg")
-    }
-
     .selections_click{
         z-index: 10;
         width: 100vw;
         height: 50vh;
         display: flex;
         position: absolute;
-        background-color: rgba(11, 11, 12, 0.884);
+        background-color: rgba(11, 11, 12, 0.932);
         flex-direction: column;
         align-items: center;
         justify-content:space-around;
         left: 0;
+        -webkit-animation: slide-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     }
 }
 

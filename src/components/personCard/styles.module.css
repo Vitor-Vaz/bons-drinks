@@ -5,7 +5,6 @@
     display: flex;
     align-self: center;
     max-width: 500px;
-    max-height: 300px;
 }
 
 .card img{
@@ -29,4 +28,22 @@
 .card div p{
     font-family: 'Karla', sans-serif;
     
+}
+
+@media screen and (max-width: 768px){
+
+    .card{
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (min-width: 769px){
+
+    .card{
+        max-height: 300px;
+    }
+
+
 }

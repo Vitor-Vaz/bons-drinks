@@ -1,4 +1,4 @@
-# Projeto Bons Drinks
+# Projeto Drinks Master
 
 - Ainda em desenvolvimento...
 

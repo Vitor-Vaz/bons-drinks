@@ -3,6 +3,7 @@ import styles from './header.module.css'
 import { Link } from 'react-router-dom';
 import { FaAlignJustify } from "react-icons/fa";
 import useWindowSize from '../../hooks/useWindowSize'
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
 
@@ -26,7 +27,7 @@ export default function Header() {
         <header className={styles.header}>
 
             <div className={styles.hamburguerDiv}>
-                <h2 > Drink's Master</h2>
+                <NavLink exact to='/' style={{ textDecoration: 'none'}} > <h2 > Drink's Master</h2>  </NavLink> 
                 <FaAlignJustify className={styles.hamburguer} onClick={() => setResponsiveMenu(!responsiveMenu)} />
             </div>
 

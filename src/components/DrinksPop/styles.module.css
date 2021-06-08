@@ -12,8 +12,6 @@
     background-size: cover;
     width: 200px;
     height: 200px;
-
-    transition: .5s;
 }
 
 .grid_container1:hover{

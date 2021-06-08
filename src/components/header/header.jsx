@@ -21,7 +21,7 @@ export default function Header() {
         verifySize();
     }, [height])
 
-    console.log(responsiveMenu);
+    
 
     return (
         <header className={styles.header}>
